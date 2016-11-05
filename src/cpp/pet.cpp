@@ -20,11 +20,6 @@ int main() {
         }
     }
 
-    std::cout << total[0] << std::endl;
-    std::cout << total[1] << std::endl;
-    std::cout << total[2] << std::endl;
-    std::cout << total[3] << std::endl;
-    std::cout << total[4] << std::endl;
     max = std::max_element(total, total + 5);
 
     std::cout << std::distance(total, max) + 1 << " " << *max << std::endl;
