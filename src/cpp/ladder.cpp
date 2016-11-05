@@ -3,8 +3,8 @@
 #include <cmath>
 
 int main() {
-	int h, v;
-	double k;
+    int h, v;
+    double k;
 
     std::cin >> h >> v;
 
